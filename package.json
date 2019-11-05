@@ -1,0 +1,14 @@
+{
+  "name": "dom-css-select",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "css-select": "link:./vendor/css-select",
+    "jsdom": "^15.2.1",
+    "nodemon": "^1.19.4"
+  }
+}
